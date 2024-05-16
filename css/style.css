@@ -1,0 +1,57 @@
+body{
+    background-color: #1e202b;
+}
+
+#today-temp{
+    font-size: 5rem!important;
+}
+
+.nav-link{
+    margin: 0 0.5rem;
+    padding: 5px 25px !important;
+    color: white;
+}
+ .nav-link:hover{
+    border: 2px solid #009ad8;
+    border-radius: 2rem;
+    color: #009ad8;
+}
+.header{
+    background: rgba(0, 0, 0, 0.901);
+}
+.body-card{
+    background: #323544;
+    height: 250px;
+}
+section{
+    background-image: url(/images/banner.png);
+    background-size: cover;
+    height: 350px;
+}
+.form-control{
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+form [type=button]:not(:disabled){
+    position: absolute;
+right: 0;
+height: 100%;
+border-radius: 40px;
+width: 15%;
+}
+form input[type="search"]{
+    padding: 15px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+}
+.mid-card{
+    background-color: #262936;
+}
+.mid-card-header{
+    background-color: #050b20ed;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- <nav class="navbar navbar-expand-lg py-2">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"> <span class="fw-bold text-light">Weather</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav  ms-auto  mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+      </nav> -->
+
+
+
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="home">
+                <form class=" py-5 ">
+                    <div class="d-flex position-relative">
+                        <input type="search" id="search" placeholder="find your location..." >
+                        <button type="button" id="find" class="btn bg-primary text-white ">find</button>
+                    </div>
+                </form>
+    
+                <div class="home-content text-light row g-0">
+                    <div class="col-md-4">
+                        <div class="header d-flex justify-content-between p-2">
+                            <span id="today">Friday</span> 
+                            <span id="monthDay">24February</span>
+                        </div>
+                        <div class="body-card p-3">
+                            <h4 class="mb-3" id="city">London</h4>
+                            <div class="d-flex mb-3 align-items-center">
+                                <span class="fs-1 me-5" id="today-temp">8<sup>o</sup>C</span>
+                                <span id="today-icon" class="w-25"><img class="w-100" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="icon"></span>
+                            </div>
+                            <span class="text-primary" id="today-condition">sunny</span>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div class="header mid-card-header d-flex justify-content-between p-2  ">
+                            <span class="mx-auto" id="tomorrow">Friday</span> 
+                        </div>
+                        <div class="body-card mid-card mx-auto text-center  p-3">
+                            <h4 class="mb-3" id="tomorrow-icon"><img src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="icon"></h4>
+                            <div class=" mb-3 align-items-center justify-content-center">
+                                <p class="fs-1 me-1" id="tomorrow-tempMax">12<sup>o</sup>C</p>
+                                <p id="tomorrow-tempMin">8.4 <sup>o</sup></p>
+                            </div>
+                            <span class="text-primary" id="tomorrow-condition">Partly cloudy</span>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div class="header d-flex justify-content-between p-2  ">
+                            <span class="mx-auto" id="Atomorrow">Friday</span> 
+                        </div>
+                        <div class="body-card mx-auto text-center  p-3">
+                            <h4 class="mb-3" id="Atomorrow-icon"><img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="icon"></h4>
+                            <div class=" mb-3 align-items-center justify-content-center">
+                                <p class="fs-1 me-1" id="Atomorrow-tempMax">9<sup>o</sup>C</p>
+                                <p id="Atomorrow-tempMin">7.2 <sup>o</sup></p>
+                            </div>
+                            <span class="text-primary" id="Atomorrow-condition">sunny</span>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>   
+<script src="./js/script.js"></script> 
+</body>
+</html>
