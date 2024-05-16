@@ -23,8 +23,13 @@ body{
     background: #323544;
     height: 250px;
 }
-section{
-    background-image: url(/images/banner.png);
+.cover{
+    /* position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000; */
+    background-image: url(/banner.png);
     background-size: cover;
     height: 350px;
 }
@@ -42,7 +47,7 @@ width: 15%;
 }
 form input[type="search"]{
     padding: 15px 50px 15px 20px;
-    background: #1e202b;
+    background: #000000;
     color: white;
     outline: none;
     border: none;
